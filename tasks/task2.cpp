@@ -13,13 +13,13 @@
  * Hints:
  * How single-threaded program should work:
  * It loops through the list "time_per_task".
- * On each iteration the function "task" is executed.
+ * At each iteration the function "task" is executed.
  *
  * How multi-threaded program should work:
  * Each thread seeks for uncompleted tasks.
- * After finding an uncompleted task the thread blocks the access to that task. (It cannot be done twice by any
- * other thred).
- * After all the tasks have been completed all the threads stop their execution.
+ * After finding an uncompleted task the thread blocks the access to that task. (It cannot be completed twice by any
+ * other thread).
+ * Once all the tasks are completed, all threads terminate their execution.
  *
  * Write your own functions, mutexes, locks!
  */

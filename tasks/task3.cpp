@@ -10,8 +10,8 @@
  * - red in the upper part
  * - green in the middle part
  * - blue in the bottom part
- * Each stripe must be drawn for a given number of times and each of the color must be drawn simultaneously.
- * Every next drawn stripe make the color be more visible.
+ * Each stripe must be drawn for a given number of times and each color must be drawn simultaneously.
+ * Every next drawn stripe makes the color more prominent.
  *
  * Hint:
  * Make use of the visual_multithreading.cpp example!
